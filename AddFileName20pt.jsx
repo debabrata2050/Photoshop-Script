@@ -1,4 +1,16 @@
-﻿// this script is a variation of the script addTimeStamp.js that is installed with PH7
+#target photoshop
+
+/*
+ * Author: Debabrata Halder
+ * GitHub: https://github.com/debabrata2050
+ *
+ * Date Created: 2025-06-09
+ * Description:
+ *     This script creates a text layer in the center of the active Photoshop document with the filename (without extension).
+ *     Useful for watermarking or labeling image assets.
+ */
+
+// this script is a variation of the script addTimeStamp.js that is installed with PH7
 
 if ( documents.length > 0 )
 {
