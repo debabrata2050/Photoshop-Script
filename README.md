@@ -1,5 +1,5 @@
 # Photoshop Scripts
-
+![](https://img.shields.io/badge/Last_Update-06--2025-brightgreen)<br /><br />
 This repository contains Adobe Photoshop scripts written in JavaScript (.jsx format) to automate and simplify common tasks within Photoshop. These scripts are intended to enhance productivity and streamline your workflow.
 
 ## 🚀 Getting Started
