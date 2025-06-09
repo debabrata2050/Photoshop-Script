@@ -34,11 +34,6 @@ To streamline your workflow, you can assign a custom keyboard shortcut to your s
 3. Go to `Edit > Keyboard Shortcuts > File > Scripts`.
 4. Find your script in the list and assign a desired shortcut key.
 
-## 🧠 About the Script
-
-_Provide a brief description of what your script does here. For example:_
-
-> This script automatically applies a high-pass sharpening effect to the active selection in your document.
 
 ## 🛠️ Contributing
 
@@ -46,7 +41,7 @@ If you'd like to improve this script or contribute new ones, feel free to fork t
 
 ## 📄 License
 
-_Include your license here if applicable (e.g., MIT, GPL, etc.)_
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
