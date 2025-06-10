@@ -6,14 +6,17 @@
  *
  * Date Created: 2025-06-09
  * Description:
- *     This script moves the currently active layer horizontally (left or right) 
- *     by a given percentage of its width in the active Photoshop document.
- *     Positive values move the layer to the right, negative values move it to the left.
+ *     This script prompts the user to enter a percentage value between -100 and 100,
+ *     then moves the currently active layer horizontally in the active Photoshop document
+ *     by that percentage of the layer’s own width.
+ *     Positive values shift the layer to the right, negative values shift it to the left.
  *
  * Instructions:
- * 1. Open a document and select the layer you want to move.
- * 2. Run this script and provide a percentage value between -100 and 100.
+ * 1. Open a Photoshop document and select the layer you want to move.
+ * 2. Run this script.
+ * 3. When prompted, enter a percentage value between -100 and 100 to shift the layer horizontally.
  */
+
 
 function shiftLayerX(percentage) {
     // Ensure percentage is within -100 to 100
@@ -56,4 +59,14 @@ function shiftLayerX(percentage) {
     }
 }
 
-shiftLayerX(-50);
+// Prompt user for input percentage
+var userInput = prompt("Enter horizontal shift percentage (-100 to 100):", "0");
+
+// Convert input to number
+var percentage = parseFloat(userInput);
+
+if (!isNaN(percentage)) {
+    shiftLayerX(percentage);
+} else {
+    alert("Invalid input. Please enter a number.");
+}
